@@ -1,5 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;1,300&display=swap');
+
+
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+
 .App {
-  text-align: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #F0F2F5;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.header{
+
+  height: 40%;
+  width: 40%;
+}
+
+
+.text-group{
+  position: relative;
+  display: flex;
+  bottom: 15px;
+ 
+  
+}
+
+
+.text-group h2{
+  font-size: 1.8rem;
+ margin-left: 2rem;
+ position: absolute;
+ font-family:'Roboto', sans-serif;
+ text-align: left;
+ font-weight: lighter;
+ text-shadow: 0.4px 0.4px black;
+ 
+  
+}
+
+
+.form input, .form button {
+  width: 90%;
+  border-radius: 0.4rem;
+  margin-top: 15px;
+  font-size: 1rem;
+}
+
+.form input{
+  border: 1px #DDDFE2 solid;
+  padding: 1rem;
+}
+
+.form button{
+  padding: 0.8rem;
+}
+
+
+
+.form-group{
+  margin-top:7%;
+  background-color: rgb(255, 255, 255);
+  width: 75%;
+  height: 80%;
+  border-radius: 0.5rem;
+  box-shadow: 0px 3px 10px 1px rgb(192, 192, 192);
+}
+
+.footer{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 30%;
+}
+
+hr{
+  margin: 0 auto;
+  width: 90%;
+  border-color: rgb(243, 239, 235);
+  opacity: 0.4;
+}
+
+.rodape{
+  margin-top: 1.6rem;
+  font-size: 0.8rem;
+  font-family:Arial, Helvetica, sans-serif;
+
+}
+
+
+.footer button{
+  padding: 0.9rem 1.2rem;
+  border-radius: 0.5rem;
+  font-size: 1rem;
+  background-color: #42B72A;
+  border: none;
+  color: white;
+  font-weight: bold;
+}
+
+.form{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-radius: 0.5rem 0.5rem 0 0 ;
+ 
+}
+
+small{
+  margin: 15px 0px;
+  font-size: 0.95rem;
+  color: #2e76d5;
+}
+
+
+#butao{
+  font-size: 1.3rem;
+  font-weight: bolder;
+  color: white;
+  border: none;
+  background-color: #2e76d5;
+
+}
+
+#img{
+  width: 55%;
+  height: auto;
+  background-size: cover;
+}
+
+.body{
+  height: 70%;
+  width: 40%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+input{
+  outline: none;
+}
+
+input::placeholder{
+  color: #949494;
 }
 
 .App-logo {
@@ -9,7 +160,7 @@
 
 @media (prefers-reduced-motion: no-preference) {
   .App-logo {
-    animation: App-logo-spin infinite 20s linear;
+    animation: App-logo-spin infinite 5s linear;
   }
 }
 
